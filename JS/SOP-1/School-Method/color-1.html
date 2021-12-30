@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <script language="JavaScript">
+        function Colors() {
+            window.setTimeout("document.bgColor='red'", 1000)
+            window.setTimeout("document.bgColor='blue'", 2000)
+            window.setTimeout("document.bgColor='green'", 3000)
+            window.setTimeout("document.bgColor='yellow'", 4000)
+            window.setTimeout("document.bgColor='violet'", 5000)
+            window.setTimeout("document.bgColor='magenta'", 6000)
+            window.setTimeout("document.bgColor='aqua'", 7000)
+        }
+
+        function Message() {
+            window.status = "Hello All"
+        }
+    </script>
+</head>
+
+<body>
+    <form name=form1>
+        <input type=button name=b1 value="MoveMouse" onMouseover="Colors()">
+        <input type=button name=b2 value="PleaseClick" onClick="Message()">
+    </form>
+</body>
+
+</html>
