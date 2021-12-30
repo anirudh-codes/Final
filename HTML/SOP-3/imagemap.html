@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <title>Image mapping</title>
+    <style>
+    p {
+    float: right;
+    color: green;
+}
+    img{
+        float:left
+    }
+
+    </style>
+</head>
+
+<body bgcolor="#000000">
+    
+    <img src="img1.jpeg" usemap="#sop" alt="image">
+    <map name="sop">
+		<area shape="rect" coords="5000,5000,100,100"  href='/HTML/SOP-3/image-1.html' alt="go to page linked to rectangle">
+		<area shape="circle" coords="350,106,100"  href='/HTML/SOP-3/image-2.html'alt="go to page linked to circle">
+		<area shape="poly" coords="10,50,100,500,100,50,0"  href="/HTML/SOP-3/image-3.html" alt="go to page linked to polygon">
+	</map>
+    <p>Click Tab till you find what are you up to!!</p>
+</body>
+
+</html>
+<!--
+<html>
+
+<body>
+    <img src="Image mapping\nature.jpg" height=600 width=700 usemap="#file1" alt="click the image">
+    <map name="file1">
+        <area shape=rect coords="84,74,239,134" href=p11.html alt="go to admin page">
+        <area shape=circle coords="234,353,47" href=p12.html alt="go to students page">
+        <area shape=poly coords="565,152,620,185,599,240,533,238,511,186" href="p13.html" alt="go to friends page">
+    </map>
+</body>
+
+</html>
+-->
